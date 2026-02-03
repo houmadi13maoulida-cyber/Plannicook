@@ -58,6 +58,6 @@
         <footer class="mt-12 text-center">
             <p class="text-[10px] text-zinc-600 font-medium tracking-widest uppercase">Propulsé par Vercel & Tailwind</p>
         </footer>
-    </div>
+    </div> 
 </body>
 </html>
