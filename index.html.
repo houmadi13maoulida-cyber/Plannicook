@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karibu Kitchen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#09090b] text-white font-sans">
+    <div class="max-w-md mx-auto p-6">
+        <header class="flex justify-between items-center mb-8">
+            <div>
+                <h1 class="text-2xl font-black text-green-500 tracking-tighter">KARIBU KITCHEN</h1>
+                <p class="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Mayotte • Saint-Nazaire</p>
+            </div>
+            <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-black font-bold">H</div>
+        </header>
+
+        <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-[2rem] mb-8 shadow-xl">
+            <p class="text-xs text-zinc-500 uppercase font-bold mb-1 tracking-tight">Budget Mensuel Utilisé</p>
+            <div class="flex items-baseline gap-2">
+                <span class="text-4xl font-black text-white">620€</span>
+                <span class="text-zinc-600 font-bold">/ 750€</span>
+            </div>
+            <div class="w-full bg-zinc-800 h-2 rounded-full mt-4 overflow-hidden">
+                <div class="bg-green-500 h-full w-[82%] shadow-[0_0_10px_rgba(34,197,94,0.4)]"></div>
+            </div>
+        </div>
+
+        <h2 class="text-orange-500 text-xs font-black uppercase tracking-widest mb-4">Spécialités de la semaine</h2>
+        
+        <div class="grid gap-3">
+            <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl flex items-center gap-4 hover:bg-zinc-900 transition-colors">
+                <div class="text-2xl bg-zinc-800 w-12 h-12 flex items-center justify-center rounded-xl">🥘</div>
+                <div>
+                    <h3 class="font-bold text-sm">Pilao ya n'kuhu</h3>
+                    <p class="text-xs text-zinc-500 italic">Riz épicé mahorais, poulet doré</p>
+                </div>
+            </div>
+            
+            <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl flex items-center gap-4 hover:bg-zinc-900 transition-colors">
+                <div class="text-2xl bg-zinc-800 w-12 h-12 flex items-center justify-center rounded-xl">🌿</div>
+                <div>
+                    <h3 class="font-bold text-sm">Mataba</h3>
+                    <p class="text-xs text-zinc-500 italic">Feuilles de manioc, coco, poisson</p>
+                </div>
+            </div>
+
+            <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl flex items-center gap-4 hover:bg-zinc-900 transition-colors">
+                <div class="text-2xl bg-zinc-800 w-12 h-12 flex items-center justify-center rounded-xl">🐟</div>
+                <div>
+                    <h3 class="font-bold text-sm">Kakamoukou</h3>
+                    <p class="text-xs text-zinc-500 italic">Soupe de poisson traditionnelle</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="mt-12 text-center">
+            <p class="text-[10px] text-zinc-600 font-medium tracking-widest uppercase">Propulsé par Vercel & Tailwind</p>
+        </footer>
+    </div>
+</body>
+</html>
